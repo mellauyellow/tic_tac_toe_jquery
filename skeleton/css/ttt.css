@@ -1,0 +1,50 @@
+.ttt {
+  font-family: sans-serif;
+}
+
+ul li {
+  float: left;
+  border: solid black 3px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  align: middle;
+}
+ul {
+  width: 318px;
+}
+
+.click:hover {
+  background-color: yellow;
+}
+
+.x {
+  background-color: white;
+  font-size: 100px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.o {
+  background-color: white;
+  font-size: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+p {
+  clear:both;
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-left: 35px;
+}
+.over {
+  background-color: white;
+  color: red;
+}
+.winner {
+  background-color: green;
+  color: white;
+}
